@@ -1,0 +1,245 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.content{
+    margin: 0 100px;
+}
+/* Title Bar styles */
+.title-bar {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    align-items: center;
+}
+.logo-container{
+    display: flex;
+    align-items: center;
+}
+.logo-container img{
+    height: 80px;
+    width: 80px;
+    margin-right: 15px;
+    padding: 8px 0 0 0;
+}
+.heading-text{
+    font-weight: bold;
+}
+
+.navigation {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.navigation li {
+    margin-right: 80px;
+    
+}
+
+.navigation a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s; 
+}
+
+.navigation a:hover {
+    text-decoration: none; 
+    color: #ffd280; 
+}
+
+.signup-button {
+    display: inline-block;
+    padding: 10px 25px;
+    background-color: rgb(255, 136, 0);
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.signup-button:hover{
+    background-color:#ffd280;
+    color: #333;
+}
+/* Main Section styles */
+.main-section {
+    display: flex;
+    padding: 50px;
+}
+
+.left-section {
+    flex: 1;
+    padding: 20px;
+}
+.main-heading{
+    font-size: 48px;
+    font-weight: bold;
+}
+.sub-text{
+font-size: 18px;
+line-height: 1.7;
+}
+
+.right-section {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.Rimage{
+    width: 500px;
+    height: 500px;
+}
+.button1{
+    text-decoration: none;
+    width: 150px;
+    height: 50px; 
+    background-color: rgb(255, 136, 0); 
+    color: white;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+    padding: 18px;
+    padding: 12px 20px 12px 20px;
+    margin-right: 10px;
+    line-height: 50px;
+    /* text-transform: uppercase; */
+}
+.button1:hover{
+   background-color: #ffd280;
+   color: #333;
+}
+.button2{
+    /* text-transform: uppercase; */
+    text-decoration: none;
+    width: 150px;
+    height: 50px; 
+    background-color: rgb(255, 136, 0); 
+    color: white;
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+    padding: 12px 20px 12px 20px;
+    line-height: 50px;
+}
+.button2:hover{
+    background-color:#ffd280;
+    color: #333;
+ }
+/* Partner Companies styles */
+.partner-companies {
+    background-color: #ffc966;
+    padding: 20px;
+    text-align: center;
+}
+
+.partner-companies h2 {
+    font-weight: bold;
+    color: black;
+}
+.location-grid {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.location-item {
+    text-align: center;
+    margin: 10px;
+}
+
+.location-item img {
+    border-radius: 50%; 
+    width: 150px; 
+    height: 150px;
+    cursor: pointer;
+    transition: transform 0.3s cubic-bezier(0.23, 1, 0.32, 1)
+}
+
+.location-item p {
+    margin: 10px 0;
+}
+
+.location-item:hover img {
+    transform: scale(1.1);
+}
+
+/* Footer styles */
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color:#333 ;
+}
+.footer{
+    padding-top: 120px;
+}
+.footer-section {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    border-right: 1px solid rgba(196, 196, 196, 0.5);
+    min-height: 100px;
+}
+.footer-section p{
+    font-weight: bold;
+    color: #fff;
+}
+.footer-section img{
+    height: 100px;
+    width: 100px;
+}
+.footer-section ul li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+.footer-section ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.footer-section:last-child {
+    border-right: none;
+}
+
+.social-media {
+    list-style: none;
+}
+
+.social-media li {
+    display: flex;
+    justify-content: center;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-media a {
+    text-decoration: none;
+}
+.other-links{
+    display: flex;
+}
+.other-links ul{
+    text-decoration: none;
+    list-style: none;
+
+}
+.other-links a{
+    text-decoration: none;
+    color: #fff;
+}
+.other-links li{
+    display: flex;
+    margin-bottom:10px;
+    justify-content: center;
+    text-decoration: none;
+
+}
+

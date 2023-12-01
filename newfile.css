@@ -1,0 +1,29 @@
+.errorMessage {
+    color: red;
+}
+h1{
+    text-align: center;
+}
+
+.nameimage {
+    height: 39px;
+    width: 39px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px; 
+}
+
+#registration-form {
+    text-align: center; 
+}
+
+#submit-button {
+    color: white;
+    background-color: aqua;
+    margin: 35px 0 0 65px;
+}
+
+/* Apply styles to form fields */
+#name, #phone, #email, #password {
+    margin-top: 10px; /* Add some space between form elements */
+}
